@@ -1,0 +1,29 @@
+Système : Chasse au Monstre
+Cas d’utilisation : Afficher l’historique
+Acteur Principal : Utilisateur
+Acteur Secondaire : /
+Précondition : /
+Garanties en cas de succès : Le système affiche l’historique des parties jouées
+Garantie Minimal : Le système reste inchangé
+Scénario nominal : 
+1.	L’utilisateur clique sur afficher l’historique
+2.	Le système affiche l’historique des parties
+
+Système : Chasse au Monstre
+Cas d’utilisation : Se déplacer	
+Acteur Principal : Monstre
+Acteur Secondaire : /
+Précondition : Une partie est lancée
+Garantie en cas de succès : Le monstre se déplace sur la case qu’il a choisi
+Garantie Minimal : Le monstre ne bouge pas
+Scénario Nominal :
+1.	Le monstre doit se déplacer
+2.	Le système affiche les cases sur lesquelles le monstre peut se déplacer
+3.	Le monstre choisi la case sur laquelle il veut se déplacer
+4.	Le système enregistre le nouvel emplacement du monstre
+Scénarios Alternatifs :
+A)	A partir de l’étape 3 la case renseigner par le monstre n’est pas valide
+-	Le système affiche un message disant que le déplacement est impossible
+-	Retour à l’étape 2
+B)	A partir de l’étape 1 Le monstre ne peut plus se déplacer
+-	Le Système prévient le monstre qu’il à perdu

@@ -1,0 +1,18 @@
+Système : Chasse aux monstres
+Cas d'utilisation : Tirer
+Acteur principal : Chasseur
+Acteur secondaire : Monstre
+Pré-condition : La partie est lancée
+Garantie en cas de succès : Le chasseur tire
+Garantie minimale : Le chasseur ne tire pas
+
+Scénario nominal :
+1. Le chasseur décide de tirer.
+2. Le système affiche les cases sur lesquelles tirer.
+3. Le chasseur choisit une case et tire.
+4. Le système analyse la case et agit en conséquence.
+
+Scénario alternatif :
+ Si à l'étape 3, le chasseur choisit une case inatteignable :
+        4(A) : Le système notifie le chasseur que la case est inatteignable
+                -> retour à l'étape 3

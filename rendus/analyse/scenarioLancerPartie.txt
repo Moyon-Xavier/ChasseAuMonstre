@@ -1,0 +1,12 @@
+Système : Chasse aux monstres
+Cas d'utilisation : Lancer la partie
+Acteur principal : Utilisateur
+Pré-condition : Aucune partie en cours
+Garantie en cas de succès : La partie se lance
+Garantie minimale : Rien ne se passe
+
+Scénario nominal :
+1. L'utilisateur clique sur lancer la partie.
+2. Le système affiche la page de lancement constituée d'options.
+3. L'utilisateur utilise les paramètres qu'il souhaite et appuie sur "lancer la partie".
+4. Le système lance la partie.
